@@ -1,0 +1,252 @@
+/*? -------------GENERAL------------ */
+
+:root {
+    --navy-text: #2E2F42;
+    --iris-brand: #4D5AE5;
+    --white-text: #FFFFFF;
+    --cloud-text: #F4F4FD;
+    --ocean-color: #404BBF;
+    --slate-general: color: #434455;
+    --accent-color: #E7E9FC;
+}
+
+body {
+    font-family: 'Roboto', 'Montserrat', 'Open Sans', sans-serif;
+    color: #434455; 
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.section-subtitles {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.20;
+    letter-spacing: 0.02em;
+    color: var(--navy-text);
+}
+
+.section-text {
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+    color: inherit;
+}
+
+.studio-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--navy-text);
+}
+
+/*! -------------INDEX------------ */
+
+/*? -------------HEADER------------ */
+
+.header {
+    background: var(--white-text);
+    border-bottom: 1px solid #E7E9FC;
+}
+
+.header-navigation {}
+
+.header-logo-link {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--iris-brand);
+}
+
+.header-logo-link span {
+    color: var(--navy-text);
+}
+
+.header-menu-list {}
+
+.header-menu-item {}
+
+.header-menu-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+    color: var(--navy-text);
+}
+
+.header-menu-link:hover,
+.header-menu-link:focus {
+    color: var(--ocean-color);
+}
+
+.header-address {}
+
+.header-address-list {}
+
+.header-address-link {
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+    color: inherit;
+}
+
+.header-address-link:hover,
+.header-address-link:focus {
+    color: var(--ocean-color);
+}
+
+/** -------------HERO------------ */
+
+.hero {
+    background: var(--navy-text);
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: var(--white-text);
+}
+
+.hero-btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.04em;
+    color: var(--white-text);
+    background: var(--iris-brand);
+    cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    color: var(--white-text);
+    background: var(--ocean-color);
+}
+
+/** -------------BENEFITS------------ */
+
+.benefits {}
+
+.benefits-title {}
+
+.benefits-list {}
+
+.benefits-item {}
+
+.benefits-subtitle {}
+
+.benefits-item-text {}
+
+/** -------------SERVICES------------ */
+
+.services {}
+
+.services-title {}
+
+.services-list {}
+
+.services-item {}
+
+/** -------------TEAM------------ */
+
+.team {
+    background: var(--cloud-text);
+}
+
+.team-title {}
+
+.team-list {}
+
+.team-item {
+    background: var(--white-text);
+}
+
+.team-subtitle {}
+
+.team-item-text {}
+
+
+/*? -------------FOOTER------------ */
+
+.footer {
+    background: var(--navy-text);
+}
+
+.footer-logo-link {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--iris-brand);
+}
+
+.footer-logo-link span {
+    color: var(--cloud-text);
+}
+
+.footer-text {
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+    color: var(--cloud-text);
+}
+
+
+/*! -------------PORTFOLIO------------ */
+
+.projects {}
+
+.projects-title {}
+
+/** -------------BTN-LIST------------ */
+
+.projects-btn-list {}
+
+.projects-btn-item {}
+
+.projects-btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.04em;
+    color: var(--iris-brand);
+    background: var(--accent-color);
+    cursor: pointer;
+}
+
+.projects-btn:hover,
+.projects-btn:focus {
+    color: var(--white-text);
+    background: var(--ocean-color);
+}
+
+/** -------------PROJECTS-LIST------------ */
+
+.projects-list {}
+
+.projects-item {}
+
+.projects-link {
+    color: var(--slate-general);
+}
+
+.projects-subtitle {}
+
+.projects-text {}
+
