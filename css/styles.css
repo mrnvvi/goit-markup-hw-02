@@ -11,8 +11,9 @@
 }
 
 body {
-    font-family: 'Roboto', 'Montserrat', 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #434455; 
+    background-color: #FFFFFF;
 }
 
 .link {
@@ -42,6 +43,7 @@ body {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
+    text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--navy-text);
@@ -53,13 +55,12 @@ body {
 
 .header {
     background: var(--white-text);
-    border-bottom: 1px solid #E7E9FC;
 }
 
 .header-navigation {}
 
 .header-logo-link {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -68,7 +69,7 @@ body {
     color: var(--iris-brand);
 }
 
-.header-logo-link span {
+.header-span {
     color: var(--navy-text);
 }
 
@@ -89,7 +90,9 @@ body {
     color: var(--ocean-color);
 }
 
-.header-address {}
+.header-address {
+    font-style: normal;
+}
 
 .header-address-list {}
 
@@ -120,6 +123,7 @@ body {
 }
 
 .hero-btn {
+    font-family: 'Roboto', sans-serif;
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
@@ -186,7 +190,7 @@ body {
 }
 
 .footer-logo-link {
-    font-family: 'Raleway';
+    font-family: 'Raleway' sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -195,7 +199,7 @@ body {
     color: var(--iris-brand);
 }
 
-.footer-logo-link span {
+.footer-span {
     color: var(--cloud-text);
 }
 
@@ -220,13 +224,13 @@ body {
 .projects-btn-item {}
 
 .projects-btn {
-    font-family: inherit;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.50;
     letter-spacing: 0.04em;
     color: var(--iris-brand);
-    background: var(--accent-color);
+    background-color: var(--cloud-text);
     cursor: pointer;
 }
 
