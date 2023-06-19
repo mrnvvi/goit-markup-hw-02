@@ -26,8 +26,7 @@ img {
 }
 
 .container {
-    width: 100%;
-    max-width: 1158px;
+    width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
@@ -76,6 +75,7 @@ img {
 
 .header {
     background: var(--white-text);
+    border-bottom: 1px solid var(--accent-color);
 }
 
 .header-container {
@@ -84,7 +84,6 @@ img {
     padding-top: 24px;
     padding-bottom: 24px;
     background: var(--white-text);
-    border-bottom: 1px solid var(--accent-color);
 }
 
 .header-navigation {
@@ -101,6 +100,7 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--iris-brand);
+    margin-right: 76px;
 }
 
 .header-span {
@@ -110,7 +110,6 @@ img {
 .header-menu {
     display: flex;
     gap: 40px;
-    padding-left: 76px;
 }
 
 .header-menu-item {}
@@ -121,6 +120,7 @@ img {
     line-height: 1.50;
     letter-spacing: 0.02em;
     color: var(--navy-text);
+    padding: 24px 0;
 }
 
 .header-menu-link:hover,
@@ -154,12 +154,11 @@ img {
 
 .hero {
     background: var(--navy-text);
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .hero-container {
-    padding-top: 188px;
-    padding-bottom: 188px;
-    margin-top: 0;
 }
 
 .hero-title {
@@ -174,21 +173,22 @@ img {
 }
 
 .hero-btn {
-    font-family: 'Roboto', sans-serif;
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.50;
     letter-spacing: 0.04em;
     color: var(--white-text);
-    background: var(--iris-brand);
+    background-color: var(--iris-brand);
     cursor: pointer;
     display: block;
+    min-width: 169px;
+    height: 56px;
     margin: 0 auto;
     margin-top: 48px;
-    padding: 16px 32px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    border: none;
 }
 
 .hero-btn:hover,
@@ -199,12 +199,11 @@ img {
 
 /** -------------BENEFITS------------ */
 
-.benefits {}
-
-.benefits-container {
-    padding-top: 91px;
-    padding-bottom: 149px;
+.benefits {
+    padding: 120px 0;
 }
+
+.benefits-container {}
 
 .benefits-title {
     position: absolute;
@@ -237,11 +236,11 @@ img {
 
 /** -------------SERVICES------------ */
 
-.services {}
-
-.services-container {
+.services {
     padding-bottom: 120px;
 }
+
+.services-container {}
 
 .services-title {
     margin-bottom: 72px;
@@ -252,18 +251,18 @@ img {
     gap: 24px;
 }
 
-.services-item {}
+.services-item {
+    width: calc((100% - 48px) / 3);
+}
 
 /** -------------TEAM------------ */
 
 .team {
     background: var(--cloud-text);
+    padding: 120px 0;
 }
 
-.team-container {
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
+.team-container {}
 
 .team-title {
     margin-bottom: 72px;
@@ -283,29 +282,26 @@ img {
 
 .team-name {
     padding: 32px 16px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
 }
 
 .team-subtitle {
+    text-align: center;
+    margin-bottom: 8px;
 }
 
-.team-item-text {}
+.team-item-text {
+    text-align: center;
+}
 
 
 /*? -------------FOOTER------------ */
 
 .footer {
     background: var(--navy-text);
+    padding: 100px 0;
 }
 
-.footer-container {
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
+.footer-container {}
 
 .footer-logo-link {
     font-family: 'Raleway', sans-serif;
@@ -315,6 +311,8 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--iris-brand);
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-span {
@@ -327,18 +325,17 @@ img {
     letter-spacing: 0.02em;
     color: var(--cloud-text);
     max-width: 264px;
-    margin-top: 16px;
 }
 
 
 /*! -------------PORTFOLIO------------ */
 
-.projects {}
-
-.projects-container {
+.projects {
     padding-top: 96px;
     padding-bottom: 120px;
 }
+
+.projects-container {}
 
 .projects-title {
     position: absolute;
@@ -384,6 +381,7 @@ img {
 .projects-btn:focus {
     color: var(--white-text);
     background: var(--ocean-color);
+    border: 1px solid transparent;
 }
 
 /** -------------PROJECTS-LIST------------ */
@@ -391,7 +389,8 @@ img {
 .projects-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 
 .projects-item {
@@ -403,16 +402,14 @@ img {
 }
 
 .prj-name {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
     padding: 32px 16px;
-    gap: 8px;
     border: 1px solid #E7E9FC;
+    border-top: none;
 }
 
-.projects-subtitle {}
+.projects-subtitle {
+    margin-bottom: 8px;
+}
 
 .projects-text {}
 
